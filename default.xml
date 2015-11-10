@@ -2,7 +2,7 @@
 <manifest>
     <!-- You can have as many remote repositories as you like -->
     <remote fetch="git://github.com/RedFIR" name="redfir"/>
-    <remote fetch="git://git.yoctoproject.org/git" name="yocto"/>
+    <remote fetch="git://git.yoctoproject.org" name="yocto"/>
     <remote fetch="git://git.openembedded.org" name="oe"/>
 
     <default remote="redfir" revision="default"/>

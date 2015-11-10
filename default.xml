@@ -16,8 +16,4 @@
     <project name="meta-xilinx" path="poky/meta-xilinx" remote="redfir" revision="dizzy" upstream="refs/heads/dizzy" />
     <project name="meta-xilinx-community" path="poky/meta-xilinx-community" remote="yocto" revision="6a7ebbc6e895bd87593a2571e43cc5215e45fa52" upstream="refs/heads/master" />
     <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="dizzy" upstream="refs/heads/dizzy"/>
-
-    <project name="linux-xlnx" path="linux-xlnx" remote="redfir" revision="a61af22c7fad4643c6523a4bd02f3f149650932d" upstream="refs/tags/xilinx-v2014.4" />
-    <project name="xilinx-uboot" path="xilinx-uboot" remote="redfir" revision="551c0b629ddb5830587258009efa45cd6ddccb16" upstream="refs/heads/master" />
-    <project name="device-tree-xlnx" path="device-tree-xlnx" remote="redfir" revision="bca3278d980b94c24d5a8a5947b4ea425f0fcf13" upstream="refs/tags/xilinx-v2014.4" />
 </manifest>

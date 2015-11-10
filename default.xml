@@ -11,13 +11,13 @@
          "remote":   the remote host from above (if not the default)
          "revision": commitish to checkout (if not the default)
          "path":     directory where git repository gets cloned/synced -->
-    <project name="poky" remote="yocto" revision="fc45deac89ef63ca1c44e763c38ced7dfd72cbe1" upstream="refs/heads/dizzy" />
+    <project name="poky" remote="yocto" revision="dizzy" upstream="refs/heads/dizzy" />
     <project name="meta-enclustra" path="poky/meta-enclustra" remote="redfir" revision="f76b6f8b1c56b27fd9a0f617775e19ed4ad7ff46" upstream="refs/heads/master" />
-    <project name="meta-xilinx" path="poky/meta-xilinx" remote="redfir" revision="5a7d8383fbce38373957e9567a524959c9a8c17e" upstream="refs/heads/dizzy" />
+    <project name="meta-xilinx" path="poky/meta-xilinx" remote="redfir" revision="dizzy" upstream="refs/heads/dizzy" />
     <project name="meta-xilinx-community" path="poky/meta-xilinx-community" remote="yocto" revision="6a7ebbc6e895bd87593a2571e43cc5215e45fa52" upstream="refs/heads/master" />
-    <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="f0fa58e2c5b6e5e0b9be3bdbd3100f773e17dacf" upstream="refs/heads/dizzy"/>
+    <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="dizzy" upstream="refs/heads/dizzy"/>
 
-    <project name="linux-xlnx" path="linux-xlnx" remote="redfir" revision="" upstream="refs/heads/xilinx-v2014.4" />
+    <project name="linux-xlnx" path="linux-xlnx" remote="redfir" revision="xilinx-v2014.4" upstream="refs/heads/xilinx-v2014.4" />
     <project name="xilinx-uboot" path="xilinx-uboot" remote="redfir" revision="551c0b629ddb5830587258009efa45cd6ddccb16" upstream="refs/heads/experimental" />
-    <project name="device-tree-xlnx" path="device-tree-xlnx" remote="redfir" revision="" upstream="refs/heads/xilinx-v2014.4" />
+    <project name="device-tree-xlnx" path="device-tree-xlnx" remote="redfir" revision="xilinx-v2014.4" upstream="refs/heads/xilinx-v2014.4" />
 </manifest>

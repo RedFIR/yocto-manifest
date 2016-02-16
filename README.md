@@ -31,7 +31,7 @@ Create an empty directory to hold your working files:
 
 Tell Repo where to find the manifest:
 
-    $ repo init -u git://github.com/RedFIR/yocto-manifest.git 
+    $ repo init -u git://github.com/RedFIR/yocto-zynq-manifest.git 
 
 A successful initialization will end with a message stating that Repo is
 initialized in your working directory. Your directory should now
@@ -50,19 +50,19 @@ particular commits.
 
 To test out the bleeding edge, type:
 
-    $ repo init -u git://github.com/RedFIR/yocto-manifest.git -b dev
+    $ repo init -u git://github.com/RedFIR/yocto-zynq-manifest.git -b dev
     $ repo sync
 
 To get back to the known stable version, type:
 
-    $ repo init -u git://github.com/RedFIR/yocto-manifest.git -b master
+    $ repo init -u git://github.com/RedFIR/yocto-zynq-manifest.git -b master
     $ repo sync
 
 Also you can get a specific version of Yocto Project:
 
 For example,
 
-    $ repo init -u git://github.com/RedFIR/yocto-manifest.git -b refs/tags/dizzy
+    $ repo init -u git://github.com/RedFIR/yocto-zynq-manifest.git -b refs/tags/dizzy
     
 To learn more about repo, look at http://source.android.com/source/version-control.html 
 ***
